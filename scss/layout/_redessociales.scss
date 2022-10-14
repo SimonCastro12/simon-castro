@@ -1,0 +1,19 @@
+.flexredes a {
+    color: black;
+    width: 15%;
+    height: 8%;
+    padding: 3%;
+  }
+  .divredes {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  svg {
+    width: 4em;
+    height: 1.5em;
+    border-radius: 10px;
+    background-color: rgb(208, 220, 220);
+  }
+  

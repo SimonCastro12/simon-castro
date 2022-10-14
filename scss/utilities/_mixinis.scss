@@ -1,0 +1,21 @@
+@mixin propiedades-flex ($background,$width,$height,$padding,$border,$border-radius,$margin-left,$margin-right,$margin-bottom) {   
+    
+    background-color: $background;
+    width: $width;
+    height: $height;
+    padding: $padding;
+    border: $border;
+    border-radius: $border-radius;
+    margin-left: $margin-left;
+    margin-right: $margin-right;
+    margin-bottom: $margin-bottom;
+
+
+}
+
+@mixin propiedades-grid ($background,$grid-template-columns) {
+    $display: flex;
+    $background: $background;
+    $grid-template-columns: $grid-template-columns;
+    
+}

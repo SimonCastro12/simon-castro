@@ -1,0 +1,38 @@
+header nav {
+    background-color: "$background-principal";
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    nav ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    section nav {
+      background-color: bisque;
+    }
+    ul li {
+      list-style-type: none;
+    }
+    ul li a {
+      text-decoration: none;
+      color: aliceblue;
+    }
+  }
+
+  
+  .logo {
+    width: 2em;
+  }
+  
+  h1 {
+    font-family: "popins", sans-serif;
+    text-align: center;
+    padding: 2%;
+  }
+  h2 {
+    text-align: center;
+    margin: 2%;
+  }
+  

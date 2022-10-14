@@ -1,0 +1,21 @@
+.img-largo {
+    display: block;
+    height: 60%;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+.flex-imagenes {
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+.articulo-texto-color {
+    width: 40%;
+    margin: 3%;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+  }

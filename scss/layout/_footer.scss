@@ -1,0 +1,23 @@
+.flexredes a {
+    color: black;
+    width: 8%;
+    height: 8%;
+    }
+    
+    .divredes {
+    display: flex;
+    justify-content: end;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  svg {
+    width: 4em;
+    height: 1.5em;
+    border-radius: 10px;
+    background-color: rgb(208, 220, 220);
+  }
+  footer a:hover {
+    font-size: 1.2em;
+    transition: 0.5s;
+    color: rgb(114, 228, 150);
+  }

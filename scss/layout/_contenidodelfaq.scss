@@ -1,0 +1,17 @@
+.articulo {
+  @include propiedades-flex(aliceblue,50%,100%,0.7em, 1em,solid green 3px,o.7em,auto,auto,1%)
+}
+
+
+  .articulo2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .articulo2 p {
+    text-align: center;
+  }
+
+  .articulo__texto--color {
+    background-color: rgb(224, 215, 215);
+  }
+
